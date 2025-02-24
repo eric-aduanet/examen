@@ -1,50 +1,29 @@
-# React + TypeScript + Vite
+# Examen de frontend usando Vite + React + Typescript
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Instalación
 
-Currently, two official plugins are available:
+1. Clonar este repositorio
+2. Escribir `yarn`, `npm install` o equivalente en la línea de comandos.
+3. Correr usando el comando `dev`. Ej. `yarn dev`, `npm run dev`...
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Documentación
 
-## Expanding the ESLint configuration
+### Navegación
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Al correr el servidor se presentará una página con un Sidebar de navegación y a su lado el contenido del ejercicio.
 
-- Configure the top-level `parserOptions` property like this:
+### Ejercicio 1
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Contiene un botón que al presionarse cambia el texto que encapsula.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Ejercicio 2
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Contiene un contador con sus botones respectivos para incrementar y decrementar.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Ejercicio 3
+
+Contiene una lista de nombres estática.
+
+### Ejercicio 4
+
+Contiene un CRUD sencillo falso que hace peticiones a jsonplaceholder.
