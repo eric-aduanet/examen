@@ -1,5 +1,5 @@
-import { AppRouter } from "./AppRouter";
-import { AppSidebar } from "./AppSidebar";
+import { AppRouter } from "./components/AppRouter";
+import { AppSidebar } from "./components/AppSidebar";
 import { SidebarProvider, SidebarTrigger } from "./components/ui/sidebar";
 import { Toaster } from "sonner";
 

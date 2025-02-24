@@ -1,8 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Ejercicio1 } from "./components/Ejercicio1";
-import { Ejercicio4 } from "./components/Ejercicio4";
-import { Ejercicio3 } from "./components/Ejercicio3";
-import { Ejercicio2 } from "./components/Ejercicio2";
+import { Ejercicio1 } from "./Ejercicio1";
+import { Ejercicio4 } from "./Ejercicio4";
+import { Ejercicio3 } from "./Ejercicio3";
+import { Ejercicio2 } from "./Ejercicio2";
 
 export const AppRouter = () => {
   return (
